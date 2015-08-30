@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17B4B11C1B92246A0048ABAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B4B11B1B92246A0048ABAE /* AppDelegate.swift */; };
+		17B4B11E1B92246A0048ABAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B4B11D1B92246A0048ABAE /* ViewController.swift */; };
+		17B4B1211B92246A0048ABAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B4B11F1B92246A0048ABAE /* Main.storyboard */; };
+		17B4B1231B92246A0048ABAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17B4B1221B92246A0048ABAE /* Assets.xcassets */; };
+		17B4B1261B92246A0048ABAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B4B1241B92246A0048ABAE /* LaunchScreen.storyboard */; };
+		17B4B12E1B92248E0048ABAE /* HTTP2Tester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B4B12D1B92248E0048ABAE /* HTTP2Tester.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17B4B1181B92246A0048ABAE /* http2test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = http2test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B4B11B1B92246A0048ABAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17B4B11D1B92246A0048ABAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17B4B1201B92246A0048ABAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17B4B1221B92246A0048ABAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17B4B1251B92246A0048ABAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17B4B1271B92246A0048ABAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17B4B12D1B92248E0048ABAE /* HTTP2Tester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTP2Tester.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17B4B1151B92246A0048ABAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17B4B10F1B92246A0048ABAE = {
+			isa = PBXGroup;
+			children = (
+				17B4B11A1B92246A0048ABAE /* http2test */,
+				17B4B1191B92246A0048ABAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17B4B1191B92246A0048ABAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17B4B1181B92246A0048ABAE /* http2test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17B4B11A1B92246A0048ABAE /* http2test */ = {
+			isa = PBXGroup;
+			children = (
+				17B4B11B1B92246A0048ABAE /* AppDelegate.swift */,
+				17B4B11D1B92246A0048ABAE /* ViewController.swift */,
+				17B4B12D1B92248E0048ABAE /* HTTP2Tester.swift */,
+				17B4B11F1B92246A0048ABAE /* Main.storyboard */,
+				17B4B1221B92246A0048ABAE /* Assets.xcassets */,
+				17B4B1241B92246A0048ABAE /* LaunchScreen.storyboard */,
+				17B4B1271B92246A0048ABAE /* Info.plist */,
+			);
+			path = http2test;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17B4B1171B92246A0048ABAE /* http2test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B4B12A1B92246A0048ABAE /* Build configuration list for PBXNativeTarget "http2test" */;
+			buildPhases = (
+				17B4B1141B92246A0048ABAE /* Sources */,
+				17B4B1151B92246A0048ABAE /* Frameworks */,
+				17B4B1161B92246A0048ABAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = http2test;
+			productName = http2test;
+			productReference = 17B4B1181B92246A0048ABAE /* http2test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17B4B1101B92246A0048ABAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Florian Gößler";
+				TargetAttributes = {
+					17B4B1171B92246A0048ABAE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 17B4B1131B92246A0048ABAE /* Build configuration list for PBXProject "http2test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17B4B10F1B92246A0048ABAE;
+			productRefGroup = 17B4B1191B92246A0048ABAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17B4B1171B92246A0048ABAE /* http2test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17B4B1161B92246A0048ABAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B4B1261B92246A0048ABAE /* LaunchScreen.storyboard in Resources */,
+				17B4B1231B92246A0048ABAE /* Assets.xcassets in Resources */,
+				17B4B1211B92246A0048ABAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17B4B1141B92246A0048ABAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B4B11E1B92246A0048ABAE /* ViewController.swift in Sources */,
+				17B4B11C1B92246A0048ABAE /* AppDelegate.swift in Sources */,
+				17B4B12E1B92248E0048ABAE /* HTTP2Tester.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		17B4B11F1B92246A0048ABAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B4B1201B92246A0048ABAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17B4B1241B92246A0048ABAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B4B1251B92246A0048ABAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17B4B1281B92246A0048ABAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17B4B1291B92246A0048ABAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17B4B12B1B92246A0048ABAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = http2test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.floriangoessler.http2test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		17B4B12C1B92246A0048ABAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = http2test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.floriangoessler.http2test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17B4B1131B92246A0048ABAE /* Build configuration list for PBXProject "http2test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B4B1281B92246A0048ABAE /* Debug */,
+				17B4B1291B92246A0048ABAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17B4B12A1B92246A0048ABAE /* Build configuration list for PBXNativeTarget "http2test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B4B12B1B92246A0048ABAE /* Debug */,
+				17B4B12C1B92246A0048ABAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17B4B1101B92246A0048ABAE /* Project object */;
+}
